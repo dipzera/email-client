@@ -17,6 +17,7 @@ yarn dev              # Start server on http://localhost:3001
 cd frontend
 yarn install
 yarn dev              # Start server on http://localhost:3000
+```
 
 ## ✅ Features Implemented
 
@@ -72,6 +73,7 @@ CREATE TABLE emails (
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 ```
+
 ```
 
 ## 📡 API Endpoints
