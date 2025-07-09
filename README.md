@@ -74,8 +74,6 @@ CREATE TABLE emails (
 );
 ```
 
-```
-
 ## 📡 API Endpoints
 
 - `GET /emails` - Get all emails
