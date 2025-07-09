@@ -2,6 +2,22 @@
 
 A full-stack email client application built with Next.js and Fastify.
 
+## 🚀 Setup Instructions
+
+### Backend Setup
+```bash
+cd backend
+yarn install
+yarn migrate          # Run database migrations
+yarn dev              # Start server on http://localhost:3001
+```
+
+### Frontend Setup
+```bash
+cd frontend
+yarn install
+yarn dev              # Start server on http://localhost:3000
+
 ## ✅ Features Implemented
 
 ### 1. Email Management
@@ -56,22 +72,6 @@ CREATE TABLE emails (
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 ```
-
-## 🚀 Setup Instructions
-
-### Backend Setup
-```bash
-cd backend
-yarn install
-yarn migrate          # Run database migrations
-yarn dev              # Start server on http://localhost:3001
-```
-
-### Frontend Setup
-```bash
-cd frontend
-yarn install
-yarn dev              # Start server on http://localhost:3000
 ```
 
 ## 📡 API Endpoints
